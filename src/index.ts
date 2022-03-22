@@ -3,6 +3,7 @@
 
 import fromCharCodes from 'string-from-charcodes';
 import U8 from 'uint8-encoding';
+import is from './is';
 import Uint1Array from './uint1array';
 import Uint7Array from './uint7array';
 
@@ -44,11 +45,7 @@ const Base128 = {
 
   },
 
-  is: ( data: string ): boolean => {
-
-    return !/[\u0080-\uffff]/.test ( data );
-
-  }
+  is
 
 };
 

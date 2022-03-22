@@ -4,6 +4,8 @@ Base128 encoding, the intersection of latin1 and utf-8, which is basically ASCII
 
 ## Comparison
 
+> Note: This works differently from the "ascii" encoding of Node's Buffer, which isn't really an encoding since you can't convert back and forth from it without losing data in general.
+
 In JavaScript there are 3 noteworthy encodings for encoding arbitrary binary data to string: base64, base128, and [base256](https://github.com/fabiospampinato/base256-encoding).
 
 - **base64**: it uses only 64 out of 256 characters that can be encoded with 1 byte, it's therefore memory inefficient, but it produces human-friendly and url-friendly strings.
