@@ -10,6 +10,12 @@ const Fixtures = require ( './fixtures' );
 
 describe ( 'Base128', it => {
 
+  it ( 'returns an actual Uint8Array', t => {
+
+    t.is ( Base128.decode ( 'foo' ).constructor, Uint8Array );
+
+  });
+
   it ( 'works with strings', t => {
 
     for ( const fixture of Fixtures ) {
