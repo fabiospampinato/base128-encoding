@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-const fc = require ( 'fast-check' );
-const {describe} = require ( 'fava' );
-const {default: Base128} = require ( '../dist' );
-const Fixtures = require ( './fixtures' );
+import fc from 'fast-check';
+import {describe} from 'fava';
+import Base128 from '../dist/index.js';
+import Fixtures from './fixtures.js';
 
 /* MAIN */
 
