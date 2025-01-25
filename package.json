@@ -2,6 +2,7 @@
   "name": "base128-encoding",
   "repository": "github:fabiospampinato/base128-encoding",
   "description": "Base128 encoding, the intersection of latin1 and utf-8, which is basically ASCII, the most memory-efficient string encoding that can be written to disk as utf-8 without ballooning in size.",
+  "license": "MIT",
   "version": "2.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -24,14 +25,14 @@
     "encoding"
   ],
   "dependencies": {
-    "string-from-charcodes": "^2.0.0",
-    "uint8-encoding": "^2.0.0"
+    "string-from-charcodes": "^2.0.1",
+    "uint8-encoding": "^2.0.1"
   },
   "devDependencies": {
     "benchloop": "^2.1.1",
-    "fast-check": "^3.12.0",
-    "fava": "^0.2.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "fast-check": "^3.23.2",
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
