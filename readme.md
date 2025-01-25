@@ -15,7 +15,7 @@ In JavaScript there are 3 noteworthy encodings for encoding arbitrary binary dat
 ## Install
 
 ```sh
-npm install --save base128-encoding
+npm install base128-encoding
 ```
 
 ## Usage
